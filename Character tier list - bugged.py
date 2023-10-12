@@ -23,6 +23,9 @@ with open(fileName) as inFile:
 
     choiceList = []
     choiceList2 = []
+
+    print('Round 1')
+    print()
     
     for i in range(0,9): #Error 3
         print()
@@ -33,9 +36,9 @@ with open(fileName) as inFile:
         
         print()
 
-    print(choiceList)
-
+    print('Round 2')
     while True:
+
 
         try:
 
@@ -51,8 +54,10 @@ with open(fileName) as inFile:
 
         except IndexError: 
 
-            print(choiceList2)
             #Error 4
+
+    print('Round 3')
+    print()
 
     print(f'{choiceList2[0]} or {choiceList[-1]}?')
 
